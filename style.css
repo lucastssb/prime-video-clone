@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    background-color: rgb(20, 20,20);
+}
+
+header {
+    padding: 8px 0;
+    background-color: rgb(40, 40, 40);
+}
+
+.center {
+    max-width: 1288px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo img {
+    max-width: 120px;
+    width: 100%;
+}
+
+.menu {
+    width: 40%;
+}
+
+.menu-items {
+    padding: 0 2px;
+    display: inline-block;
+}
+
+.menu-items a {
+    color: rgb(120, 120, 120);
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.menu-items a:hover {
+    color: white;
+}
